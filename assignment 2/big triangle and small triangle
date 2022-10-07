@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+	int l, b, area, per ;
+	printf("Enter length and breadth\n ");
+	scanf("%d %d",&l,&b);
+	area = l * b;
+	per = 2*(l+b);
+	printf("area  = %d\nperimeter = %d\n",area, per);
+	if(area >=100)
+	{
+		printf("Big rectangle");
+	}
+	else 
+	{
+		printf("Small triangle");
+	}
+	return 0;
+}
