@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main ()
+{
+	int a =  , b, c, d, e;
+	b = a %10; 
+	printf("b = %d\t",b);
+	a = a/10;
+	c = a%10;
+	printf("c = %d\t",c);
+	a = a/10 ;
+	d = a%10 ;
+	printf("d = %d\t",d);
+	a = a/10 ;
+	e = a%10 ;
+	printf("e = %d",e);
+
+
+
+	return 0 ;
+
+
+}h
